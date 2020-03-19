@@ -8,8 +8,8 @@ namespace Laboratorio01
 {
     class clsPerson
     {
-        string Name;
-        string LastName;
+        public string Name;
+        public string LastName;
 
         public clsPerson(string X, string Y)
         {
