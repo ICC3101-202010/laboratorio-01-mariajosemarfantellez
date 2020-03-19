@@ -10,6 +10,11 @@ namespace Laboratorio01
     {
         static void Main(string[] args)
         {
+            Random rnd = new Random();
+            {
+                int Cachipun = rnd.Next(0, 3);
+                Console.WriteLine(Cachipun);
+            }
         }
     }
 }
