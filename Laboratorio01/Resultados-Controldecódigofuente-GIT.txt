@@ -1,0 +1,5 @@
+﻿Abriendo los repositorios:
+C:\Users\marim\Desktop\laboratorio-01-mariajosemarfantellez
+Se encontró un repositorio GIT existente en C:\Users\marim.
+Abriendo los repositorios:
+C:\Users\marim

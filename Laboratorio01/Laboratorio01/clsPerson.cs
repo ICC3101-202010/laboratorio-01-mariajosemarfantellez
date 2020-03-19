@@ -11,10 +11,10 @@ namespace Laboratorio01
         public string Name;
         public string LastName;
 
-        public clsPerson(string X, string Y)
+        public clsPerson(string Name, string LastName)
         {
-            Name = X;
-            LastName = Y;
+            this.Name = Name;
+            this.LastName = LastName;
         }
     }
 }
