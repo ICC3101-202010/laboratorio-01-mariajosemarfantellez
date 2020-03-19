@@ -15,6 +15,9 @@ namespace Laboratorio01
                 int Cachipun = rnd.Next(0, 3);
                 Console.WriteLine(Cachipun);
             }
+
+            clsPerson Persona = new clsPerson("Bob", "Kunga");
+            Console.WriteLine(Persona);
         }
     }
 }
