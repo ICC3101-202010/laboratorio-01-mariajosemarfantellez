@@ -18,7 +18,7 @@ namespace Laboratorio01
 
             clsPerson Persona = new clsPerson("Bob", "Kunga");
             Console.WriteLine(Persona.Name + " " + Persona.LastName);
-            Console.ReadLine( );
+            Console.ReadLine();
         }
     }
 }
