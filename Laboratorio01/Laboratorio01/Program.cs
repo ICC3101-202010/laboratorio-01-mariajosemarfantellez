@@ -10,15 +10,10 @@ namespace Laboratorio01
     {
         static void Main(string[] args)
         {
-            Random rnd = new Random();
-            {
-                int Cachipun = rnd.Next(0, 3);
-                Console.WriteLine(Cachipun);
-            }
-
             clsPerson Persona = new clsPerson("Bob", "Kunga");
             Console.WriteLine(Persona.Name + " " + Persona.LastName);
-            Console.ReadLine();
+            Console.WriteLine("En el lanzamiento salió "+Persona.Lanzar());
+            Console.ReadLine( );
         }
     }
 }
